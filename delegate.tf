@@ -37,5 +37,5 @@ module "delegate" {
   delegate_image = "harness/delegate:25.02.85300"
   replicas = 1
   upgrader_enabled = true
-  depends_on       = [google_container_cluster.cluster2]
+  depends_on       = [google_container_cluster.new-cluster]
 }
