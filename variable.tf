@@ -1,19 +1,19 @@
 variable "project_id" {
   description = "The GCP project ID"
   type        = string
-  default     = "sekhar-452813"  
+  default     = "newproject-450616"  
 }
 
 variable "region" {
   description = "The region where the resources will be created"
   type        = string
-  default     = "us-west3-c"  // Change to a region with sufficient quota
+  default     = "us-central1"  // Change to a region with sufficient quota
 }
 
 variable "cluster_name" {
   description = "The name of the Kubernetes cluster"
   type        = string
-  default     = "my-cluster11" 
+  default     = "cluster1" 
 }
 
 variable "node_count" {
