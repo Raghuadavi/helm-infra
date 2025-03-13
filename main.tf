@@ -1,4 +1,4 @@
-resource "google_container_cluster" "primary" {
+resource "google_container_cluster" "cluster2" {
   name     = var.cluster_name
   location = var.region
 
