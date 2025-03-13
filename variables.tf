@@ -7,7 +7,7 @@ variable "project_id" {
 variable "region" {
   description = "The region where the resources will be created"
   type        = string
-  default     = "us-south1"  // Change to a region with sufficient quota
+  default     = "asia-south1"  // Change to a region with sufficient quota
 }
 
 variable "cluster_name" {
