@@ -30,7 +30,7 @@ module "delegate" {
 
   account_id = "ucHySz2jQKKWQweZdXyCog"
   delegate_token = "NTRhYTY0Mjg3NThkNjBiNjMzNzhjOGQyNjEwOTQyZjY="
-  delegate_name = "helm-delegate"
+  delegate_name = "terraform-delegate"
   deploy_mode = "KUBERNETES"
   namespace = "harness-delegate-ng"
   manager_endpoint = "https://app.harness.io"
