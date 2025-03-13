@@ -1,7 +1,7 @@
 variable "project_id" {
   description = "The GCP project ID"
   type        = string
-  default     = "newproject-450616"  
+  default     = "new-project-450616"  
 }
 
 variable "region" {
@@ -13,7 +13,7 @@ variable "region" {
 variable "cluster_name" {
   description = "The name of the Kubernetes cluster"
   type        = string
-  default     = "cluster1" 
+  default     = "cluster2" 
 }
 
 variable "node_count" {
